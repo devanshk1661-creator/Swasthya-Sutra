@@ -1,0 +1,14 @@
+### 1. Create a New Patient
+POST http://localhost:3000/api/patients
+Content-Type: application/json
+
+{
+    "fullName": "Alice",
+    "age": 42,
+    "gender": "Female",
+    "email": "alice@example.com",
+    "password": "securepassword789"
+}
+
+### 2. Get All Patients
+GET http://localhost:3000/api/patients
